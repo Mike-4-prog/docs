@@ -9,10 +9,8 @@
   "favicon": "/favicon.svg",
   "api": {
     "reference": {
-      "spec": {
-        "type": "openapi",
-        "url": "./openapi.yaml"
-      }
+      "input": "./openapi.yaml",
+      "output": "api-reference"
     }
   },
   "navigation": {
@@ -22,9 +20,7 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index"
-            ]
+            "pages": ["index"]
           }
         ]
       },
@@ -32,21 +28,7 @@
         "tab": "API Reference",
         "url": "/api-reference"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "TMDB Website",
-          "href": "https://www.themoviedb.org/",
-          "icon": "external-link"
-        },
-        {
-          "anchor": "API Key",
-          "href": "https://www.themoviedb.org/settings/api",
-          "icon": "key"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -64,18 +46,6 @@
       "label": "Get API Key",
       "href": "https://www.themoviedb.org/settings/api"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
