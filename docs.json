@@ -30,14 +30,7 @@
       },
       {
         "tab": "API Reference",
-        "groups": [
-          {
-            "group": "TMDB API",
-            "pages": [
-              "api-reference"
-            ]
-          }
-        ]
+        "url": "/api-reference"
       }
     ],
     "global": {
