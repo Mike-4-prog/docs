@@ -1,13 +1,20 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "TMDB API Documentation",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#01D277",
     "light": "#07C983",
-    "dark": "#15803D"
+    "dark": "#01B465"
   },
   "favicon": "/favicon.svg",
+  "api": {
+    "reference": {
+      "spec": {
+        "type": "openapi",
+        "url": "./openapi.yaml"
+      }
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -22,15 +29,12 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "TMDB API",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference"
             ]
           }
         ]
@@ -39,14 +43,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "TMDB Website",
+          "href": "https://www.themoviedb.org/",
+          "icon": "external-link"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "API Key",
+          "href": "https://www.themoviedb.org/settings/api",
+          "icon": "key"
         }
       ]
     }
@@ -59,13 +63,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@themoviedb.org"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get API Key",
+      "href": "https://www.themoviedb.org/settings/api"
     }
   },
   "contextual": {
@@ -82,9 +86,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/themoviedb",
+      "github": "https://github.com/Mike-4-prog/docs",
+      "linkedin": "https://linkedin.com/company/your-company"
     }
   }
 }
